@@ -40,7 +40,7 @@ function mapStateToProps(state) {
 function mapDispatchToProps(dispatch) {
   return {
     load: () =>
-      dispatch(console.log('Loading')),
+      dispatch(console.info('Loading')), // eslint-disable-line no-console
   };
 }
 

@@ -11,11 +11,6 @@ describe('App.js', () => {
     subscribe: jest.fn(),
   };
 
-  const mockedPropsSearch = {
-    chamber: 'house',
-    congress: 100,
-  };
-
   const mockedPropsApp = {
     loading: true,
     members: [{
